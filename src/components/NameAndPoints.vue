@@ -24,6 +24,8 @@ watch(
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .points-display {
   @apply absolute right-2 top-0;
 }

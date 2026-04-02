@@ -66,6 +66,8 @@ export default defineComponent({
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .draggable-container {
   @apply relative flex flex-wrap items-center justify-center gap-4;
 }

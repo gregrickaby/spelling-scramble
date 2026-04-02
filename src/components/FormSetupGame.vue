@@ -41,6 +41,8 @@ const submitHandler = () => {
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .form {
   @apply mx-auto flex max-w-4xl flex-col items-center justify-center gap-4;
 }

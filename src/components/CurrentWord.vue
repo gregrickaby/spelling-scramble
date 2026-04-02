@@ -23,6 +23,8 @@ const wordStyle: ComputedRef<StyleValue> = computed(() => ({
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .current-word {
   @apply m-0 text-8xl leading-none;
 }

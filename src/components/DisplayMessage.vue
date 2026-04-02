@@ -11,6 +11,8 @@ const store = useSpellingStore()
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .message {
   @apply absolute left-0 right-0 top-0 rounded bg-blue-100 p-2 text-center;
 }

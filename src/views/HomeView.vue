@@ -22,6 +22,8 @@ const store = useSpellingStore()
 </template>
 
 <style scoped>
+@reference "tailwindcss";
+
 .main {
   @apply space-y-8 text-center;
 }
