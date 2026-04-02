@@ -27,7 +27,7 @@ watch(
 @reference "tailwindcss";
 
 .points-display {
-  @apply absolute right-2 top-0;
+  @apply absolute top-0 right-2;
 }
 
 .name {
